@@ -9,8 +9,6 @@
             lonType: { value: 'num' },
             rad: { value: '', required: true },
             radType: { value: 'num' },
-            botid:{ value: '', required: true },
-            name: { value: '' }
         },
         inputs: 1,
         outputs: 1,
@@ -34,12 +32,6 @@
                 typeField: $('#node-input-radType'),
                 types: ['num', 'msg']
             });
-            $('#node-input-botid').typedInput({
-                default: 'num',
-                typeField: $('#node-input-botidType'),
-                types: ['num', 'msg']
-            });
-
         }
     });
 </script>
