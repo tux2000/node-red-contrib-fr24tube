@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    RED.nodes.registerType('flightradar24',{
+    RED.nodes.registerType('fr24tube',{
         category: 'function',
         color: '#a6bbcf',
         defaults: {
@@ -44,7 +44,7 @@
     });
 </script>
 
-<script type="text/x-red" data-template-name="flightradar24">
+<script type="text/x-red" data-template-name="fr24tube">
     <div class="form-row">
         <label for="node-input-lat"><i class="icon-tag"></i> Latitude</label>
         <input type="text" id="node-input-lat" placeholder="51">
@@ -66,7 +66,7 @@
     </div>
 </script>
 
-<script type="text/x-red" data-help-name="flightradar24">
-    <p>This node retrieves plane locations from flightradar24 service.</p>
+<script type="text/x-red" data-help-name="fr24tube">
+    <p>This node retrieves plane locations from flightradar24 service in a specific radius.</p>
     <p>After you input latitude and longitude  and radius in node property, this node gets all information about planes within the radius.</p>
 </script>
