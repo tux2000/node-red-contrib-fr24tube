@@ -1,6 +1,6 @@
 {
-    "name": "@pko/node-red-contrib-fr24tube",
-    "version": "0.0.1",
+    "name": "@avoit/node-red-contrib-fr24tube",
+    "version": "0.0.2",
     "main": "node.js",
     "dependencies": {
         "flightradar24-client": "0.3.0",

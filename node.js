@@ -49,5 +49,5 @@ module.exports = function (RED) {
             });
         });
     }
-    RED.nodes.registerType("flightradar24", Flightradar24NodePKO);
+    RED.nodes.registerType("fr24tube", Flightradar24NodePKO);
 };

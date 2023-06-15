@@ -16,6 +16,6 @@ Node-RED node to retrieve plane locations from flightradar24 service, but only i
 -------
 Run the following command in your Node-RED user directory - typically `~/.node-red`
 
-        npm install node-red-contrib-fr24tube
+        npm install @avoit/node-red-contrib-fr24tube
 
 
