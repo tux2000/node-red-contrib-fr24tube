@@ -1,4 +1,4 @@
-var radar = require('flightradar24-client/lib/radar');
+const radar = (...args) => import('flightradar24-client').then(({ fetchFromRadar }) => fetchFromRadar(...args));
 var geolib = require('geolib')
 
 module.exports = function (RED) {
