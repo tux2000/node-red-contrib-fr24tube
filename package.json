@@ -3,7 +3,7 @@
     "version": "0.0.5",
     "main": "node.js",
     "dependencies": {
-        "flightradar24-client": "0.3.0",
+        "flightradar24-client": "1.0.0",
         "geolib": "^3.3.1"
       },
     "description": "Node-RED node to fetch aircraft in a specific tube from Flightradar24 //Based on zuhito fligthradar24 node//",
