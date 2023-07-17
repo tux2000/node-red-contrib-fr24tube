@@ -2,7 +2,7 @@ var radar = require('flightradar24-client/lib/radar');
 var geolib = require('geolib')
 
 module.exports = function (RED) {
-    function FR24tube(config) {
+    function fr24tube(config) {
         RED.nodes.createNode(this, config);
         var node = this;
         node.on('input', function (msg) {
@@ -49,5 +49,5 @@ module.exports = function (RED) {
             });
         });
     }
-    RED.nodes.registerType("fr24tube", FR24tube);
+    RED.nodes.registerType("fr24tube", fr24tube);
 };
